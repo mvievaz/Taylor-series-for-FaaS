@@ -1,0 +1,12 @@
+{
+  "name": "taylor-series-for-faas",
+  "version": "1.0.0",
+  "description": "Taylor series calculator for FaaS",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/taylor.ty",
+    "start": "node dist/taylor.js 2 10000"
+  },
+  "author": "mvievaz",
+  "license": "ISC"
+}
